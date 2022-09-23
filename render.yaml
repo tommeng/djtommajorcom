@@ -3,3 +3,4 @@ services:
   - type: web
     name: djtommajorcom
     env: docker
+    dockerCommand: "python manage.py runserver 0.0.0.0:8000"

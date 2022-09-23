@@ -1,0 +1,7 @@
+services:
+  # A Docker web service
+  - type: web
+    name: djtommajorcom
+    env: docker
+    buildCommand: "docker-compose build"
+    startCommand: "docker-compose up"
